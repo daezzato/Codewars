@@ -12,3 +12,7 @@ function warnTheSheep(queue) {
     return `Oi! Sheep number ${wolfIndex}! You are about to be eaten by a wolf!`
   }
 }
+
+console.log(warnTheSheep(['sheep', 'sheep', 'wolf', 'sheep']))
+console.log(warnTheSheep(['sheep', 'sheep', 'sheep', 'sheep', 'wolf']))
+console.log(warnTheSheep(['wolf', 'sheep', 'sheep', 'sheep', 'sheep']))
