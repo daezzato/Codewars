@@ -6,12 +6,11 @@
 def flick_switch(lst):
 	new_lst = []
 	toggle = True
-	for i in range(len(lst)):
-		if lst[i] == 'flick':
+	for word in lst:
+		if word == 'flick':
 			toggle = not(toggle)
-			new_lst.append(toggle)
-		elif lst[i]:
-			new_lst.append(toggle)
+		new_lst.append(toggle)
+
 	return new_lst
 
 print(flick_switch(["flick", "flick", "flick", "flick", "flick"]))
