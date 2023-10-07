@@ -16,3 +16,5 @@ print(same_case('a', 'b'))
 print(same_case('D', 'G'))
 print(same_case('B', 'b'))
 print(same_case('a', '?'))
+print(same_case('/', '?'))
+
