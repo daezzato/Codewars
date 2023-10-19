@@ -22,4 +22,3 @@ console.log(phoneWords('653'))
 console.log(phoneWords("443355555566604466690277733099966688"))
 
 
-//https://www.codewars.com/kata/635b8fa500fba2bef9189473/train/javascript
