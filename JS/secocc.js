@@ -20,6 +20,10 @@ function secondSymbol(s, symbol) {
 	}
 }
 
+// function secondSymbol(s, symbol) {
+//   return s.indexOf(symbol, s.indexOf(symbol) + 1);
+// }
+
 console.log(secondSymbol('helllllo', 'l'))
 console.log(secondSymbol('basketball', 'g'))
 console.log(secondSymbol('blue stars', 's'))
