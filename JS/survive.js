@@ -4,7 +4,13 @@
 //Use an if statement to check if bullets is greater than or equal to dragons multiplied by 2. If it is, return true, if not return false
 
 
-//
+function hero(bullets, dragons) {
+    if (bullets >= (dragons * 2)) {
+        return true
+    } else {
+        return false
+    }
+}
 
 const hero = (bullets, dragons) => bullets >= (dragons * 2) ? true : false
 
